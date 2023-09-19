@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+.redirect-message {
+	background: #FFFAE0;
+	margin: 10px 100px 10px 100px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: justify;
+	font-size: 18pt;
+    border: 1px solid #ADA364;
+}

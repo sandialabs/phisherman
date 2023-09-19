@@ -1,0 +1,134 @@
+
+.survey-instructions-container {
+    margin: 10px 30px 10px 30px;
+}
+
+.survey-body-container {
+	padding: 10px 30px 10px 30px;
+	wixdth: 100%;
+}
+
+.survey-body {
+    display: inline-block;
+	border: 1px solid #ADA364;
+    border-radius: 10px;
+	width: 100%;
+}
+
+.survey-question-container {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.survey-question-container-colored {
+	border-radius: 10px;
+	background-color: #FFFAE0;
+}
+
+.survey-question-container-border {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.survey-question {
+    float: left;
+	margin: 10px;
+	width: 60%;
+	font-weight: bold;
+}
+
+.survey-subquestion-container {
+    clear: both;
+}
+
+.survey-subquestion {
+	float: left;
+    margin: 10px 10px 10px 20px;
+    font-style: italic;
+    width: 59%;
+}
+
+.survey-response {
+	float: left;
+    margin: 10px;
+}
+
+.other-question-container {
+	display: inline-block;
+}
+
+.other-question-radio {
+	float: left;
+}
+
+.other-question-text {
+	float: left;
+	padding-left: 5px;
+}
+
+.survey-table-question-instructions {
+    margin: 10px;
+    width: 60%;
+    font-weight: bold;
+}
+
+.survey-table-question {
+	font-style: italic;
+    margin: 10px;
+}
+
+.survey-table {
+    margin: 30px;
+    border: 1px solid #7F7749;
+    background-color: #FFF7BF;
+    box-shadow: 10px 10px 5px #BBB;
+    border-radius: 10px;
+}
+
+.survey-table-header {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #7F7749;
+    font-weight: bold;
+}
+
+.survey-table-row {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #7F7749;
+}
+
+.survey-table-bottom-row {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+
+.survey-table-question-cell {
+    float: left;
+	width: 25%;
+    padding: 5px;
+    height: 45px;
+}
+
+.survey-table-question-cell-4lines {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    height: 100px;
+}
+
+.survey-table-cell {
+    float: left;
+    padding: 5px;
+    width: 13%;  
+    text-align: center;
+}
+
+.survey-table-cell2 {
+    float: left;
+    padding: 5px;
+    width: 9%;  
+    text-align: center;
+}

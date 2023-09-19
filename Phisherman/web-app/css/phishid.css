@@ -1,0 +1,553 @@
+
+
+/************************
+ ** START INSTRUCTIONS **
+ ************************/
+
+.start-instructions-warning {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.begin-survey-btn-container {
+    margin: 10px 100px 10px 100px;
+}
+
+
+/************************
+ ** EMAIL INSTRUCTIONS **
+ ************************/
+
+.email-instructions-container {
+    margin: 10px 20px 10px 20px;
+}
+.email-instructions-header {
+    font-size: 14pt;
+    padding: 0px 10px 10px 10px;
+}
+.email-instructions-header-collapsed {
+    font-size: 14pt;
+    border-bottom: none;
+    padding: 0px 10px 10px 10px;
+}
+.email-instructions-emphasis {
+    text-decoration: underline;
+    display: inline-block;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+.corner-icon {
+	width: 32px;
+	height: 32px;
+}
+.empty-corner-icon {
+	float: left;
+}
+.collapse-expand-icon {
+	float: right;
+	margin-top:5px;
+}
+.collapse-icon {
+	background-image: url(../images/collapse-32x32.png);
+	background-repeats: no-repeat;
+}
+.expand-icon {
+    background-image: url(../images/expand-32x32.png);
+    background-repeats: no-repeat;
+}
+.email-instructions-body-hidden {
+	display: none;
+}
+
+
+/**************
+ ** RESPONSE **
+ **************/
+
+.response-box {
+    position: relative;
+    margin: 10px 20px 10px 20px;
+	padding: 10px;
+	border: 2px #634D00 solid;
+	border-radius:10px;
+	width: auto;
+	text-align: center;
+	height: 90px;
+	background-color: #F9E8A7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F9E8A7), to(#F7D456)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #F9E8A7, #F7D456 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #F9E8A7, #F7D456 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #F9E8A7, #F7D456 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #F9E8A7, #F7D456 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #F9E8A7, #F7D456 ); /* W3C */
+}
+
+.container {
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+}
+
+
+/*******************
+ ** PHISH BUTTONS **
+ *******************/
+ 
+.phish-button {
+	overflow: hidden; 
+	position: absolute;
+    width: 90px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 0px 0px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px #000 solid;
+}
+
+.phish-button-yes-unselected {
+    background-image: url(../images/exclam.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    
+    -khtml-opacity:.40; 
+    -moz-opacity:.40; 
+    -ms-filter:"alpha(opacity=40)";
+    filter:alpha(opacity=40);
+    opacity:.40; 
+}
+
+.phish-button-yes-unselected:hover {
+    background-color: #FFFA70;
+    background-image: url(../images/exclam.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    
+    -khtml-opacity: 1; 
+    -moz-opacity: 1; 
+    -ms-filter: "alpha(opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; 
+}
+
+.phish-button-no-unselected {
+    background-image: url(../images/check.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    
+    -khtml-opacity:.40; 
+    -moz-opacity:.40; 
+    -ms-filter:"alpha(opacity=40)";
+    filter:alpha(opacity=40);
+    opacity:.40; 
+}
+
+.phish-button-no-unselected:hover {
+    background-color: #FFFA70;
+    background-image: url(../images/check.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    
+    -khtml-opacity: 1; 
+    -moz-opacity: 1; 
+    -ms-filter: "alpha(opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; 
+}
+
+.phish-button-yes-selected {
+    background-color: #FFB6B2;
+    background-image: url(../images/exclam.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+
+    -khtml-opacity: 1; 
+    -moz-opacity: 1; 
+    -ms-filter: "alpha(opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; 
+}
+
+.phish-button-no-selected {
+    background-color: #BCDDCA;
+    background-image: url(../images/check.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+
+    -khtml-opacity: 1; 
+    -moz-opacity: 1; 
+    -ms-filter: "alpha(opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1; 
+}
+
+.phish-button-text {
+    color: black;
+    padding-top: 55px;
+    font-weight: bold;
+    font-family: "Helvetica";
+}
+
+
+/****************
+ ** CONFIDENCE **
+ ****************/
+ 
+.confidence-box {
+    display: inline-block;
+    width: 60%;
+    background-color: #FBF1CA;
+    padding-top: 5px;
+    border: 1px #000 solid;
+    border-radius: 10px;
+    height: 80px;
+}
+.confidence-title-text {
+    color: black;
+    font-weight: bold;
+    font-family: "Helvetica";
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.confidence-text {
+	font-variant: small-caps;
+	font-size: 16pt;
+	font-weight: bold;
+	text-shadoxw: 1px 1px #222222;
+}
+.confidence-text-0 {
+    color: #AA283E;
+}
+.confidence-text-1 {
+    color: #EA5625;
+}
+.confidence-text-2 {
+    color: #F7C80E;
+}
+.confidence-text-3 {
+    color: #98B768;
+}
+.confidence-text-4 {
+    color: #17720E;
+}
+.confidence-radio {
+    width: 16%;
+    display: inline-block;
+    padding: 1px;
+}
+.confidence-radio-0:hover {
+    padding: 0px;
+    color: black;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #FF8C90;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF8C90), to(#E24846)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FF8C90, #E24846 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FF8C90, #E24846 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FF8C90, #E24846 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FF8C90, #E24846 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FF8C90, #E24846 ); /* W3C */
+}
+.confidence-radio-1:hover {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #FFD3BF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD3BF), to(#FF8349)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FFD3BF, #FF8349 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FFD3BF, #FF8349 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FFD3BF, #FF8349 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FFD3BF, #FF8349 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FFD3BF, #FF8349 ); /* W3C */
+}
+.confidence-radio-2:hover {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #FFFBEF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFBEF), to(#F2D776)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FFFBEF, #F2D776 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FFFBEF, #F2D776 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FFFBEF, #F2D776 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FFFBEF, #F2D776 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FFFBEF, #F2D776 ); /* W3C */
+}
+.confidence-radio-3:hover {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #EDFFD8;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EDFFD8), to(#ABCE80)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #EDFFD8, #ABCE80 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #EDFFD8, #ABCE80 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #EDFFD8, #ABCE80 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #EDFFD8, #ABCE80 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #EDFFD8, #ABCE80 ); /* W3C */
+}
+.confidence-radio-4:hover {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #C6FFCF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C6FFCF), to(#5CA565)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #C6FFCF, #5CA565 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #C6FFCF, #5CA565 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #C6FFCF, #5CA565 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #C6FFCF, #5CA565 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #C6FFCF, #5CA565 ); /* W3C */
+}
+.confidence-radio-0-selected {
+    padding: 0px;
+    color: black;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #FF8C90;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF8C90), to(#E24846)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FF8C90, #E24846 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FF8C90, #E24846 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FF8C90, #E24846 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FF8C90, #E24846 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FF8C90, #E24846 ); /* W3C */
+}
+.confidence-radio-1-selected {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #FFD3BF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFD3BF), to(#FF8349)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FFD3BF, #FF8349 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FFD3BF, #FF8349 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FFD3BF, #FF8349 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FFD3BF, #FF8349 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FFD3BF, #FF8349 ); /* W3C */
+}
+.confidence-radio-2-selected {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #FFFBEF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFBEF), to(#F2D776)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FFFBEF, #F2D776 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FFFBEF, #F2D776 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FFFBEF, #F2D776 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FFFBEF, #F2D776 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FFFBEF, #F2D776 ); /* W3C */
+}
+.confidence-radio-3-selected {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #EDFFD8;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#EDFFD8), to(#ABCE80)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #EDFFD8, #ABCE80 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #EDFFD8, #ABCE80 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #EDFFD8, #ABCE80 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #EDFFD8, #ABCE80 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #EDFFD8, #ABCE80 ); /* W3C */
+}
+.confidence-radio-4-selected {
+    padding: 0px;
+    border: 1px #667F68 solid;
+    border-radius: 5px;
+    background-color: #C6FFCF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#C6FFCF), to(#5CA565)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #C6FFCF, #5CA565 ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #C6FFCF, #5CA565 ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #C6FFCF, #5CA565 ); /* IE10 */
+    background-image: -o-linear-gradient(top, #C6FFCF, #5CA565 ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #C6FFCF, #5CA565 ); /* W3C */
+}
+
+
+/**********
+ ** NEXT **
+ **********/
+ 
+.next-email-button {
+    overflow: hidden; 
+    position: absolute;
+    width: 90px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    margin: 10px 0px 10px 5px;
+    padding: 5px 0px 0px 0px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px #000 solid;
+    background-image: url(../images/begin3.png);
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    cursor: default;
+}
+.next-email-button-disabled {
+    -khtml-opacity:.40; 
+    -moz-opacity:.40; 
+    -ms-filter:"alpha(opacity=40)";
+    filter:alpha(opacity=40);
+    opacity:.40; 
+}
+.next-email-button-enabled {
+    cursor: pointer;  /* auto doesn't work in FF/IE */
+    -khtml-opacity:1; 
+    -moz-opacity:1; 
+    -ms-filter:"alpha(opacity=100)";
+    filter:alpha(opacity=100);
+    opacity:1; 
+}
+.next-email-button-enabled:hover {
+    background-color: #FFFA70;
+}
+
+
+/***********
+ ** EMAIL **
+ ***********/
+
+.email-box {
+    position: relative;
+    margin: 20px 100px 30px 100px;
+    background-color: white;
+    border-top: 20px #666 solid;
+    border-left: 3px #666 solid;
+    border-right: 3px #666 solid;
+    border-bottom: 10px #666 solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #BBB;
+    width: auto;
+}
+
+.email-buttons {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EAEAEA)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #FFFFFF, #EAEAEA ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #FFFFFF, #EAEAEA ); /* IE10 */
+    background-image: -o-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #FFFFFF, #EAEAEA ); /* W3C */
+    border-bottom: 2px #888888 solid;
+}
+
+.email-button {
+    display: inline-block;
+    width: 52px;
+    text-align: center;
+    height: 55px;
+}
+
+.email-button-reply {
+    background-image: url(../images/reply.png);
+    background-image: url(../images/reply.png), -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EAEAEA)); /* Saf4+, Chrome */
+    background-image: url(../images/reply.png), -webkit-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Chrome 10+, Saf5.1+ */
+    background-image: url(../images/reply.png), -moz-linear-gradient(top, #FFFFFF, #EAEAEA ); /* FF3.6+ */
+    background-image: url(../images/reply.png), -ms-linear-gradient(top, #FFFFFF, #EAEAEA ); /* IE10 */
+    background-image: url(../images/reply.png), -o-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Opera 11.10+ */
+    background-image: url(../images/reply.png), linear-gradient(top, #FFFFFF, #EAEAEA ); /* W3C */ 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.email-button-reply:hover {
+	background-color: #FFF7BF;
+    background-image: url(../images/reply.png);
+    background-image: url(../images/reply.png), -webkit-gradient(linear, left top, left bottom, from(#FFFAED), to(#FFECA8)); /* Saf4+, Chrome */
+    background-image: url(../images/reply.png), -webkit-linear-gradient(top, #FFFAED, #FFECA8 ); /* Chrome 10+, Saf5.1+ */
+    background-image: url(../images/reply.png), -moz-linear-gradient(top, #FFFAED, #FFECA8 ); /* FF3.6+ */
+    background-image: url(../images/reply.png), -ms-linear-gradient(top, #FFFAED, #FFECA8 ); /* IE10 */
+    background-image: url(../images/reply.png), -o-linear-gradient(top, #FFFAED, #FFECA8 ); /* Opera 11.10+ */
+    background-image: url(../images/reply.png), linear-gradient(top, #FFFAED, #FFECA8 ); /* W3C */ 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.email-button-reply-all {
+    background-image: url(../images/reply-all.png);
+    background-image: url(../images/reply-all.png), -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EAEAEA)); /* Saf4+, Chrome */
+    background-image: url(../images/reply-all.png), -webkit-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Chrome 10+, Saf5.1+ */
+    background-image: url(../images/reply-all.png), -moz-linear-gradient(top, #FFFFFF, #EAEAEA ); /* FF3.6+ */
+    background-image: url(../images/reply-all.png), -ms-linear-gradient(top, #FFFFFF, #EAEAEA ); /* IE10 */
+    background-image: url(../images/reply-all.png), -o-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Opera 11.10+ */
+    background-image: url(../images/reply-all.png), linear-gradient(top, #FFFFFF, #EAEAEA ); /* W3C */ 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.email-button-reply-all:hover {
+    background-color: #FFF7BF;
+	background-image: url(../images/reply-all.png);
+    background-image: url(../images/reply-all.png), -webkit-gradient(linear, left top, left bottom, from(#FFFAED), to(#FFECA8)); /* Saf4+, Chrome */
+    background-image: url(../images/reply-all.png), -webkit-linear-gradient(top, #FFFAED, #FFECA8 ); /* Chrome 10+, Saf5.1+ */
+    background-image: url(../images/reply-all.png), -moz-linear-gradient(top, #FFFAED, #FFECA8 ); /* FF3.6+ */
+    background-image: url(../images/reply-all.png), -ms-linear-gradient(top, #FFFAED, #FFECA8 ); /* IE10 */
+    background-image: url(../images/reply-all.png), -o-linear-gradient(top, #FFFAED, #FFECA8 ); /* Opera 11.10+ */
+    background-image: url(../images/reply-all.png), linear-gradient(top, #FFFAED, #FFECA8 ); /* W3C */ 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.email-button-forward {
+    background-image: url(../images/forward.png);
+    background-image: url(../images/forward.png), -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EAEAEA)); /* Saf4+, Chrome */
+    background-image: url(../images/forward.png), -webkit-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Chrome 10+, Saf5.1+ */
+    background-image: url(../images/forward.png), -moz-linear-gradient(top, #FFFFFF, #EAEAEA ); /* FF3.6+ */
+    background-image: url(../images/forward.png), -ms-linear-gradient(top, #FFFFFF, #EAEAEA ); /* IE10 */
+    background-image: url(../images/forward.png), -o-linear-gradient(top, #FFFFFF, #EAEAEA ); /* Opera 11.10+ */
+    background-image: url(../images/forward.png), linear-gradient(top, #FFFFFF, #EAEAEA ); /* W3C */ 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.email-button-forward:hover {
+    background-color: #FFF7BF;
+	background-image: url(../images/forward.png);
+    background-image: url(../images/forward.png), -webkit-gradient(linear, left top, left bottom, from(#FFFAED), to(#FFECA8)); /* Saf4+, Chrome */
+    background-image: url(../images/forward.png), -webkit-linear-gradient(top, #FFFAED, #FFECA8 ); /* Chrome 10+, Saf5.1+ */
+    background-image: url(../images/forward.png), -moz-linear-gradient(top, #FFFAED, #FFECA8 ); /* FF3.6+ */
+    background-image: url(../images/forward.png), -ms-linear-gradient(top, #FFFAED, #FFECA8 ); /* IE10 */
+    background-image: url(../images/forward.png), -o-linear-gradient(top, #FFFAED, #FFECA8 ); /* Opera 11.10+ */
+    background-image: url(../images/forward.png), linear-gradient(top, #FFFAED, #FFECA8 ); /* W3C */ 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/******************
+ ** EMAIL HEADER **
+ ******************/
+
+.email-header {
+	clear: both;
+    padding: 5px;
+    background-color: #CCCCCC;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#CCCCCC), to(#EEEEEE)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #CCCCCC, #EEEEEE ); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient(top, #CCCCCC, #EEEEEE ); /* FF3.6+ */
+    background-image: -ms-linear-gradient(top, #CCCCCC, #EEEEEE ); /* IE10 */
+    background-image: -o-linear-gradient(top, #CCCCCC, #EEEEEE ); /* Opera 11.10+ */
+    background-image: linear-gradient(top, #CCCCCC, #EEEEEE ); /* W3C */
+}
+
+.email-header-field-name {
+	display: inline-block;
+	font-weight: bold;
+	width: 80px;
+	font-size: 10pt;
+}
+
+.email-header-field-value {
+    display: inline-block;
+    font-size: 10pt;
+}
+
+.email-content {
+    padding: 10px;
+    background-color: white;
+    border-top: 2px #888888 solid;
+}
